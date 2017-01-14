@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Aliquam
-description: Ipsum dolor sit amet
+title: Collaborators
+description: Join our project team!
 image: assets/images/pic01.jpg
 ---
 
