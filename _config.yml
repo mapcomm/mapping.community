@@ -1,8 +1,8 @@
 # Site settings
 title: Mapping Community
-subtitle: resourcing the grassroots, generating open geospatial data & highlighting local sustainability
+subtitle: An AHRC funded participatory big-data initiative
 email: j.kidwell@bham.ac.uk
-description: An AHRC funded participatory big-data initiative
+description: resourcing the grassroots, generating open geospatial data & highlighting local sustainability
 baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
 url: "https://mapping.community" # the base hostname & protocol for your site
 author: Jeremy Kidwell

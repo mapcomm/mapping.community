@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 title: About
 landing-title: About this project
 description: null
