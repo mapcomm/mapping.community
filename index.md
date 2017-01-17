@@ -7,4 +7,4 @@ image: null
 author: null
 ---
 
-Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.
+Community groups bring a huge level of energy and resources to big picture problems like climate change, energy generation, and social resilience. Yet for all this impact they are rarely represented in media and research portrayals of solutions to social problems. This project aims to literally put community back on the map and help to put community-level solutions on the agenda more broadly.
