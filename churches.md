@@ -1,5 +1,5 @@
 ---
-layout: churches_home
+layout: churcheshome
 title: Churches
 landing-title: 'Mapping Community'
 description: 'Churches and Places of Worship'

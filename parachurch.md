@@ -1,5 +1,5 @@
 ---
-layout: church_pages # can be page, church_pages, post or home
+layout: churchespage # can be page, church_pages, post or home
 title: Para-church groups welcome
 description: null
 image: null
