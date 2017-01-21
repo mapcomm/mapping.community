@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+
+<head>
+	<title>Mapping Community</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<!--[if lte IE 8]><script src="http://mapping.community/assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="http://mapping.community/assets/css/main.css" />
+	<!--[if lte IE 9]><link rel="stylesheet" href="http://mapping.community/assets/css/ie9.css" /><![endif]-->
+	<!--[if lte IE 8]><link rel="stylesheet" href="http://mapping.community/assets/css/ie8.css" /><![endif]-->
+</head>
+
+
+<body>
+
+    <!-- Wrapper -->
+<div id="wrapper">
+
+<!-- Header -->
+<header id="header">
+	<a href="http://mapping.community/" class="logo"><strong>Mapping Community</strong> <span>An AHRC funded participatory big-data initiative</span></a>
+	<nav>
+		<a href="#menu">Menu</a>
+	</nav>
+</header>
+
+<!-- Menu -->
+<nav id="menu">
+	<ul class="links">
+        
+		    
+		
+		    
+		        <li><a href="http://mapping.community/">Home</a></li>
+	    	
+		
+		    
+		        <li><a href="http://mapping.community/">People</a></li>
+	    	
+		
+		
+		    
+		        <li><a href="http://mapping.community/churches.html">Churches</a></li>
+		    
+		
+		    
+		
+		    
+		
+	</ul>
+	<ul class="actions vertical">
+		<li><a href="#" class="button special fit">Get Started</a></li>
+		<li><a href="#" class="button fit">Log In</a></li>
+	</ul>
+</nav> 
+    
+    
+<!-- Main -->
+<div id="main" class="alt">
+
+<!-- One -->
+<section id="one">
+	<div class="inner">
+		<header class="major">
+			<h1>Technical Background</h1>
+		</header>
+		
+		<p><h2 id="technical-background-for-mapping-community">Technical Background for ‘Mapping Community’</h2>
+
+<p>This project is all about “open” data. We leverage a range of industry leading open-standards and open-source tools and all of our data is available under open licenses. Further, as much as possible, we aim to deposit our POI data for community groups in the massively popular crowd-sourced alternative to google maps, bing and map quest:  OpenStreetMaps.</p>
+
+<h3 id="infrastructure">Infrastructure</h3>
+
+<p>Our primary server runs <a href="https://github.com/CartoDB/cartodb">cartoDB</a>, an innovative new platform spinning out location-based intelligence and geospatial data visualisations. Carto is a powerful tool, and we’re grateful to that development team for making their product open-source. Caro also provides a hosted service for anyone who might be interested in running their own instance. Our own instance of CartoDB sits on a virtual server hosted by the University of Birmingham.</p>
+
+<p>Practitioner groups can use this server to conveniently update their data sets, and the carto server generates a range of map templates which you can use for your group and embed in your own website. However, most of the magic happens in your web browser using javascript tools such as leaflet and openlayers.</p>
+
+<h3 id="whats-this-about-openstreetmaps">What’s This About OpenStreetMaps?</h3>
+
+<p>In seeking to make our data visible and sustainable over the long term, it was hard to imagine a better fit than the <a href="http://www.openstreetmap.org/about">OpenStreetMap project</a>. OSM aims to be a community-generated map of the whole earth and through the dedicated work of amateur mappers, projects like <a href="http://www.missingmaps.org/">Missing Maps</a>, and innovative support of commercial providers who use OSM as a base maps for application development like <a href="https://www.mapbox.com">MapBox</a> OSM is quickly becoming the de facto standard for online mapping with a high level of data accuracy.<sup id="fnref:171161631"><a href="#fn:171161631" class="footnote">1</a></sup> There are many reasons to avoid commercial providers like mapquest, google, and bing maps:</p>
+
+<ul>
+  <li>Their data is unavailable or highly expensive to acquire, even for scholarly researchers - making for a black box that is hard to verify.</li>
+  <li>Because their provision is as a “free” service, these providers reserve the right to terminate the provision at any time.<sup id="fnref:171161633"><a href="#fn:171161633" class="footnote">2</a></sup></li>
+  <li>Interfaces such as Google maps’ keep each database discrete and self-contained so there is no opportunity to compare databases across groups.</li>
+  <li>And perhaps most concerning is the Terms of Service for these products:
+    <blockquote>
+      <p>“you give Google a perpetual, irrevocable, worldwide, royalty-free, and non-exclusive license to reproduce, adapt, modify, translate, publicly perform, publicly display and distribute Your Content through the Service and as search results through Google Services” <a href="https://developers.google.com/maps/terms?csw=1">according to the google API terms</a></p>
+    </blockquote>
+  </li>
+</ul>
+
+<p>OSM is not only a viable alternative - in many cases their data is more accurate, and now provides the provision for a huge range of commercial and free mapping and navigation products. With this in mind, for this project, one of our key long-term pathways for making this data visible and sustainable relies on deploying it onto OSM and we plan eventually to set up many of the underlying datasets on our cartoDB platform as augmented replicants of OSM data.</p>
+
+<p>If you’d like to read more about our efforts embed this work within Open Street Maps, check out our <a href="http://mapping.community/2017-01-01-osm-dev-guide.html">development guide and wish-list</a>.</p>
+
+<h3 id="project-time-line">Project Time-line</h3>
+
+<p>We envision this project proceeding in four stages, aptly named “Mapping Community 1.0 - 4.0”. The first stage is nearly complete, and the primary work here has involved working closely with community groups to generate new data sets. We aim to have our production CartoDB server up and running with all these data sets in place by April 2017.</p>
+
+<p>For Version 2.0 of Mapping Community, we are working directly with a group of web-developers to generate a series of web-maps that convey demographic detail and layer interesting information on top of our community group points of interest. For this development process, we’re collaborating with graphic artists to create a new icon set for our maps, and meeting with practitioners and other researchers into community to plan meta-data structures for mapping-community. We hope to have this work done by June 2017.</p>
+
+<p>In Version 3.0 of Mapping Community, in consultation with the openstreetmap.org, we are developing protocols and <a href="http://wiki.openstreetmap.org/wiki/Osmsync">scripts</a> to deploy select sets of our data as <a href="http://wiki.openstreetmap.org/wiki/Changeset">changesets</a> to openstreetmap. There is an <a href="http://wiki.openstreetmap.org/wiki/Automated_Edits_code_of_conduct">automated edits code of conduct</a> for OSM, so we’re proceeding with care to make sure these additions remain in OSM and are a sustainable input. Additionally, once this is in place, we will offload parts of the database to OSM permanently, so our own PostGIS database hosted through the CartoDB server will represent a replication of the OSM points updated on a regular basis.</p>
+
+<p>For Version 4.0 of Mapping Community, we will draw in scholarly research and media produced about the groups in our database, linking articles and news automatically to groups that are displayed on the map. Alongside a manual literature review (which is already underway) we aim for this portion of development to deploy algorithms that regularly search for new information and add it to our database combining the best of human researchers and robots!</p>
+
+<p>If you can imagine yourself contributing to any aspect of this work described above, we are actively seeking collaborators. Drop us an <a href="mailto:j.kidwell@bham.ac.uk">email</a>!</p>
+
+<h2 id="references-from-above">References (from above)</h2>
+
+<div class="footnotes">
+  <ol>
+    <li id="fn:171161631">
+      <p>There is a growing body of research into OSM. For two examples, see Pascal Neis and Alexander Zipf, “<a href="http://www.mdpi.com/2220-9964/1/2/146">Analyzing the contributor activity of a volunteered geographic information project: The case of OpenStreetMap</a>,” ISPRS International Journal of Geo-Information 2 (2012): 146–165 and Mordechai Haklay, “<a href="http://journals.sagepub.com/doi/abs/10.1068/b35097">How good is volunteered geographical information? A comparative study of OpenStreetMap and Ordnance Survey datasets</a>,” Environment and planning B: Planning and design 4 (2010): 682–703.&nbsp;<a href="#fnref:171161631" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:171161633">
+      <p>Examples abound, but take the now (in)famous example of Google’s termination of the highly popular google reader project and recent <a href="https://mapsengine.google.com/about/index.html">termination and re-commercialisation of their “maps engine” product</a>. Similar limits to benevolent behaviour have come from Mapquest, who recently terminated the free offering of their nominatim mapping service.&nbsp;<a href="#fnref:171161633" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
+</p>
+	</div>
+</section>
+
+</div>
+
+    <!-- Contact -->
+<section id="contact">
+	<div class="inner">
+		<section>
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-envelope"></span>
+					<h3>Email</h3>
+					<a href="#">j.kidwell@bham.ac.uk</a>
+				</div>
+			</section>
+		</section>
+		<section class="split">
+			<section>
+				<div class="contact-method">
+					<span class="icon alt fa-home"></span>
+					<h3>Address</h3>
+					<span>University of Birmingham<br />
+					Birmingham,  B15 2TT<br />
+					United Kingdom</span>
+				</div>
+			</section>
+		</section>
+	</div>
+</section>
+
+<!-- Footer -->
+	<footer id="footer">
+		<div class="inner">
+			<ul class="icons">
+				
+				<li><a href="https://twitter.com/kidwellj" class="icon alt fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+				
+				
+				
+				
+				
+				
+				
+				
+				<li><a href="https://github.com/kidwellj/mapping.community" class="icon alt fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+				
+				
+				
+			</ul>
+			<ul class="copyright">
+				<li>&copy; Mapping Community An AHRC funded participatory big-data initiative</li>
+				<li>Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
+				<li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a></li>
+
+			</ul>
+		</div>
+	</footer>
+
+</div>
+
+<!-- Scripts -->
+	<script src="http://mapping.community/assets/js/jquery.min.js"></script>
+	<script src="http://mapping.community/assets/js/jquery.scrolly.min.js"></script>
+	<script src="http://mapping.community/assets/js/jquery.scrollex.min.js"></script>
+	<script src="http://mapping.community/assets/js/skel.min.js"></script>
+	<script src="http://mapping.community/assets/js/util.js"></script>
+	<!--[if lte IE 8]><script src="http://mapping.community/assets/js/ie/respond.min.js"></script><![endif]-->
+	<script src="http://mapping.community/assets/js/main.js"></script>
+
+
+</body>
+
+</html>
