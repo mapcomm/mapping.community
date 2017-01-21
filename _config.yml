@@ -4,7 +4,7 @@ subtitle: An AHRC funded participatory big-data initiative
 email: j.kidwell@bham.ac.uk
 description: resourcing the grassroots, generating open geospatial data & highlighting local sustainability
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://mapping.community" # the base hostname & protocol for your site
+url: "http://mapping.community" # the base hostname & protocol for your site
 author: Jeremy Kidwell
 street_address: University of Birmingham
 city: Birmingham
