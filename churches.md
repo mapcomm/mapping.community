@@ -1,10 +1,10 @@
 ---
 layout: churches_home
-title: Home
-landing-title: 'Mapping Churches and Places of Worship'
+title: Churches
+landing-title: 'Mapping Community: Churches and Places of Worship'
 description: null
 image: null
 author: null
 ---
 
-text
+text1
