@@ -1,19 +1,19 @@
 ---
 title: Churches
 layout: landing
-description: 'Mapping Churches and Places of Worship'
-image: assets/images/pic07.jpg
+description: 'Alongside sustainable and low-carbon community groups, a significant target for this project is to improve data regarding religion and places of worship in Britain and Europe. There are nearly 50,000 places of worship in the UK, making for a cartographic feature that is so ubiquitous that their significance may escape notice. However, places of worship serve as a crucial forum for public mobilisation, investment, and solidarity in a range of communities. Many of the non-religious community groups featured on our maps have links to local places of worship. They can serve as crucial community anchors and occupy a unique historical and persistent aspect of the European landscape. Religion plays an important role in the lives of millions of people living in Europe.'
+image: assets/images/big_city.jpg
 nav-menu: true
 ---
 
 <section id="banner" class="style2">
   <div class="inner">
   <span class="image">
-  <img src="{{ site.baseurl }}/%7B%7B%20page.image%20%7D%7D" alt="">
+  <img src="{{ site.baseurl }}/{{ page.image }}" alt="">
 </span>
   <header class="major">
 
-# Landing
+<h2>Why Map Places of Worship?</h2>
 
 </header>
   <div class="content">
@@ -25,96 +25,86 @@ nav-menu: true
 </section>
 
 <div id="main">
+  <!-- Pane One -->
   <section id="one">
-  <div class="inner"><header class="major">
+  <div class="inner">
 
-## Sed amet aliquam
+    <header class="major">
+    <h4>Improving Data on Places of Worship</h4>
+    </header>
+    <p>Existing data sets are inaccessible, not transparently generated, and often have incomplete or flawed metadata. We are working directly with religious groups and denominations in the UK to generate open data which is sustainably maintained, open access, and highly accurate. By mapping places of worship we provide a unique dimension for the study of communities and cultures across Europe, provide a focal point for place-based sociology of religion and congregational studies, and provide a valuable resource to these communities for strategic planning.</p>
+  </div>
+  </section>
 
-</header>
 
-Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.
-
-</div>
-  <p></p>
-</section>
-  <p>
-</p>
+  <!-- Pane Two -->
   <section id="two" class="spotlights">
-  <section><a href="generic.html">
-  <img src="assets/images/pic08.jpg" alt="" data-position="center center">
-</a>{:.image}
 
-<div class="content">
-  <div class="inner"><header class="major">
+    <section>
+      <a href="denominations.html" class="image"><img src="assets/images/churches_poi.png" alt="" data-position="center center"></a>
 
-### Orci maecenas
+      <div class="content">
+      <div class="inner">
 
-</header>
+        <header class="major">
+    	   <h3>Denominations</h3>
+    	  </header>
 
-Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.
+        <p>Nearly all denominations have a map of member congregations, but these tend to be hosted on google maps and other free (but nonetheless "alternatively commercialized") platforms. We want to bring together all these disparate datasets and provide churches with better free cartographic tools and location-based intelligence. Want to get your denomination on the map? It's an easy process to get started and you will have the ability to edit and update your data in real time using our simple but powerful CartoDB portal.</p>
 
-<em><a href="generic.html">Learn more</a>{:.button}
+        <ul class="actions"><li><a href="generic.html" class="button">Learn more</a></li></ul>
 
-</em></div>
-  <em></em>
-</div></section>
-  <em></em>
-  <section>
-  <em><a href="generic.html"><img src="assets/images/pic09.jpg" alt="" data-position="top center"></a>{:.image}
+        </div>
+      </div>
+    </section>
 
-</em>
-  <div class="content">
-  <em></em>
-  <div class="inner"><em><header class="major">
+    <!-- Pane Three, continuing spotlights -->
+    <section>
+    <a href="generic.html" class="image"><img src="assets/images/aya-sofia.jpg" alt="" data-position="top center"></a>
+			<div class="content">
+			<div class="inner">
+			   <header class="major">
+			      <h3>Parachurch Groups</h3>
+			    </header>
 
-### Rhoncus magna
+          <p>We also welcome expressions of interest from para-church groups, particularly those interested in commissioning research by our team or engineering new mapping perspectives with our data for strategic insight or planning purposes.</p>
 
-</header>
+			    <ul class="actions">
+            <li><a href="generic.html" class="button">Learn more</a></li>
+			    </ul>
+			</div>
+			</div>
+		</section>
 
-Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.
+    <!-- Pane Four, last spotlight -->
+    <section>
+    <a href="generic.html" class="image">
+    <img src="assets/images/sanctuary_tall.jpg" alt="" data-position="25% 25%">
+    </a>
+    <div class="content">
+    <div class="inner">
+      <header class="major"><h3>What about my church?</h3></header>
 
-</em>   <a href="generic.html">Learn more</a>{:.button}
+      <p>Want to get just your place of worship on the map? No problem! Just put in your information using our online form and one of our data engineers will be in touch with you. Once we have all our data up on OpenStreetMap.org, you will be able to add and edit using the web or your smartphone. Also coming soon - our mapping community App!</p>
 
-</div>
-</div>
-</section>
-  <section><a href="generic.html">
-  <img src="assets/images/pic10.jpg" alt="" data-position="25% 25%">
-</a>{:.image}
+      <ul class="actions">
+    	 <li><a href="generic.html" class="button">Learn more</a></li>
+    	</ul>
+    </div>
+    </div>
+  </section>
+  </section>
 
-<div class="content">
-  <div class="inner"><header class="major">
-
-### Sed nunc ligula
-
-</header>
-
-Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.
-
-<em><a href="generic.html">Learn more</a>{:.button}
-
-</em></div>
-  <em></em>
-</div></section>
-  <em><p></p></em>
-</section>
-  <em>
-  <p></p>
-</em>
   <section id="three">
-  <em></em>
-  <div class="inner"><em><header class="major">
+    <div class="inner">
 
-## Massa libero
+      <header class="major"><h2>Technical Details</h2></header>
 
-</header>
+      <p>If you want to know more about what's "under the hood" on mapping community, click through to our technical details page.</p>
 
-Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.
-
-</em>   <a href="generic.html">Get Started</a>{:.button .next}
-
-</div>
-</section>
-  <p>
-</p>
+      <ul class="actions">
+  	    <li><a href="2017/01/13/technical_details.html" class="button next">About the tech</a></li>
+  	  </ul>
+  	</div>
+  </section>
 </div>
